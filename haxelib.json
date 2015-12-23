@@ -1,0 +1,14 @@
+{
+    "name": "hxnodejs-jsonwebtoken",
+    "url": "https://github.com/kevinresol/hxnodejs-jsonwebtoken",
+    "license": "MIT",
+    "classPath": "src",
+    "tags": ["nodejs", "jwt", "jsonwebtoken"],
+    "description": "Externs for the jsonwebtoken NPM module",
+    "releasenote": "Initial release",
+    "version": "1.0.0",
+    "contributors": ["kevinresol"],
+    "dependencies": {
+        "hxnodejs": ""
+    }
+}

@@ -1,0 +1,6 @@
+-lib hxnodejs
+
+-js example/example.js
+-cp example
+-cp src
+-main Example
