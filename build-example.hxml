@@ -1,6 +1,6 @@
 -lib hxnodejs
+-lib hxnodejs-jsonwebtoken
 
 -js example/example.js
 -cp example
--cp src
 -main Example

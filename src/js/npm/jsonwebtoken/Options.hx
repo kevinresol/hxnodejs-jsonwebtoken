@@ -1,9 +1,11 @@
 package js.npm.jsonwebtoken;
 
+import haxe.extern.EitherType;
+
 typedef SignOptions = 
 {
 	?algorithm:String,
-	?expiresIn:haxe.extern.EitherType<String, Int>,
+	?expiresIn:EitherType<String, Int>,
 	?audience:String,
 	?subject:String,
 	?issuer:String,
@@ -13,9 +15,9 @@ typedef SignOptions =
 
 typedef VerifyOptions = 
 {
-	algorithms:Array<String>,
+	?algorithms:Array<String>,
 	?ignoreExpiration:Bool,
-	?audience:String,
+	?audience:EitherType<String, Array<String>>,
 	?issuer:String,
 }
 
