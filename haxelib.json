@@ -5,8 +5,8 @@
     "classPath": "src",
     "tags": ["nodejs", "jwt", "jsonwebtoken"],
     "description": "Externs for the jsonwebtoken NPM module",
-    "releasenote": "Initial release",
-    "version": "1.0.0",
+    "releasenote": "Verify an array of audiences",
+    "version": "1.0.1",
     "contributors": ["kevinresol"],
     "dependencies": {
         "hxnodejs": ""
