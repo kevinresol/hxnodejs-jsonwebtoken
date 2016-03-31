@@ -5,10 +5,10 @@
     "classPath": "src",
     "tags": ["nodejs", "jwt", "jsonwebtoken"],
     "description": "Externs for the jsonwebtoken NPM module",
-    "releasenote": "Also accept buffers",
-    "version": "1.0.2",
+    "releasenote": "Add js-kit dependency",
+    "version": "1.0.4",
     "contributors": ["kevinresol"],
     "dependencies": {
-        "hxnodejs": ""
+        "js-kit": ""
     }
 }
